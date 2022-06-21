@@ -13,5 +13,5 @@ jobs:
           ACCESS_TOKEN: ${{ secrets.secret }}
           TARGET_REPO: mustang-galaxy/test-gitpage
           TARGET_BRANCH: main
-          BUILD_SCRIPT: yarn && yarn build
+          BUILD_SCRIPT: yarn && yarn docs:build
           BUILD_DIR: docs/.vuepress/dist
