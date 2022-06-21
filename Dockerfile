@@ -11,3 +11,5 @@ LABEL "maintainer"="mustang-galaxy <379311662@qq.com>"
 
 RUN apt-get update && apt-get install -y git jq
 
+COPY entrypoint.sh /entrypoint.sh
+ENTRYPOINT ["/entrypoint.sh"]
