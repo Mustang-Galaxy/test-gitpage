@@ -5,8 +5,8 @@ LABEL "com.github.actions.description"="A GitHub Action to build and deploy Vuep
 LABEL "com.github.actions.icon"="upload-cloud"
 LABEL "com.github.actions.color"="gray-dark"
 
-LABEL "repository"="https://github.com/Mustang-Galaxy/test-gitpage"
-LABEL "homepage"="https://github.com/Mustang-Galaxy/test-gitpage"
+LABEL "repository"="https://github.com/Mustang-Galaxy/test-gitpage-demo"
+LABEL "homepage"="https://github.com/Mustang-Galaxy/test-gitpage-demo"
 LABEL "maintainer"="mustang-galaxy <379311662@qq.com>"
 
 RUN apt-get update && apt-get install -y git jq
