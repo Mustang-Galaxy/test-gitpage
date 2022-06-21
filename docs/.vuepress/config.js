@@ -1,1 +1,1 @@
-base = /test-gitpage/
+base=/test-gitpage/
