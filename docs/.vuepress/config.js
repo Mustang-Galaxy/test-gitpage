@@ -3,6 +3,6 @@ module.exports = {
   description: 'just playing around',
   base: '/test-gitpage/',
   themeConfig: {
-    sidebar: ['/', '/page-a', ['/page-b', 'Explicit link text']],
+    sidebar: ['/'],
   },
 }
