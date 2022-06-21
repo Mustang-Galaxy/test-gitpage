@@ -3,6 +3,6 @@ module.exports = {
   description: 'just playing around',
   base: '/test-gitpage/',
   themeConfig: {
-    sidebar: ['/'],
+    displayAllHeaders: true,
   },
 }
