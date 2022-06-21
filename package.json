@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "@vuepress/theme-default": "^1.9.7",
     "vuepress": "^1.9.7"
   },
   "name": "test-gitpage",
@@ -11,8 +12,8 @@
   },
   "dependencies": {
     "eslint-scope": "^4.0.3",
-    "multicast-dns-service-types": "^1.1.0",
-    "mime-types": "^2.1.35"
+    "mime-types": "^2.1.35",
+    "multicast-dns-service-types": "^1.1.0"
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
