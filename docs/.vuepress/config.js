@@ -7,17 +7,17 @@ module.exports = {
   theme: defaultTheme({
     sidebar: [
       {
-        text: "Foo",
+        text: 'Foo',
         link: '/foo/',
         children: [
           {
             text: 'github',
             link: 'https://github.com',
-            children: []
-          }
-        ]
-      }
-      '/guide/configure.md'
-    ]
-  })
+            children: [],
+          },
+        ],
+      },
+      '/guide/configure.md',
+    ],
+  }),
 }
