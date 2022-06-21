@@ -7,7 +7,7 @@ LABEL "com.github.actions.color"="gray-dark"
 
 LABEL "repository"="https://github.com/Mustang-Galaxy/test-gitpage"
 LABEL "homepage"="https://github.com/Mustang-Galaxy/test-gitpage"
-LABEL "maintainer"="mustang <jenkey2011@163.com>"
+LABEL "maintainer"="mustang-galaxy <379311662@qq.com>"
 
 RUN apt-get update && apt-get install -y git jq
 
