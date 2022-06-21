@@ -1,0 +1,33 @@
+{
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  },
+  "name": "test-gitpage",
+  "description": "You can use the [editor on GitHub](https://github.com/Mustang-Galaxy/test-gitpage/edit/main/README.md) to maintain and preview the content for your website in Markdown files.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "eslint-scope": "^4.0.3",
+    "multicast-dns-service-types": "^1.1.0",
+    "mime-types": "^2.1.35"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mustang-Galaxy/test-gitpage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mustang-Galaxy/test-gitpage/issues"
+  },
+  "homepage": "https://github.com/Mustang-Galaxy/test-gitpage#readme"
+}
