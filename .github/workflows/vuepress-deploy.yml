@@ -10,7 +10,7 @@ jobs:
       - name: test-gitpage
         uses: mustang-galaxy/test-gitpage@main
         env:
-          ACCESS_TOKEN: ${{ secrets.secret }}
+          ACCESS_TOKEN: ${{ secrets.SECRET }}
           TARGET_REPO: mustang-galaxy/test-gitpage
           TARGET_BRANCH: main
           BUILD_SCRIPT: yarn && yarn docs:build
