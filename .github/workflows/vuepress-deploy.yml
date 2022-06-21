@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@main
+        uses: mustang-galaxy/test-gitpage@main
 
       - name: test-gitpage
         uses: mustang-galaxy/test-gitpage@main
